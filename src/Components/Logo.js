@@ -1,10 +1,11 @@
 import React from "react";
+import feelmelogo from "../Photos/feelmelogo.png"
 
 function Logo() {
     return (
-        <header>
-            <h1 className="text-yellow-200 text-5xl font-serif">RICHT</h1>
-        </header>
+        <div className="logo w-32 h-32 bg-stone-200">
+            <img src={feelmelogo} alt="feelme" />
+        </div>
     )
 }
 
